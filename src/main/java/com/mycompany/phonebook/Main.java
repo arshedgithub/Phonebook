@@ -15,8 +15,9 @@ public class Main {
         Phonebook frame = new Phonebook();
         
         frame.setVisible(true);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-    }
+    } 
     
 }
